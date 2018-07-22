@@ -1,11 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import { render } from "react-dom";
+import { createStore } from "redux";
+import todoApp from "./reducers";
+import Root from "@components/Root";
 
-const title = 'React Webpack Babel Setup';
+const store = createStore(todoApp);
 
-ReactDOM.render(
-  <div>{title}</div>,
-  document.getElementById('app')
-);
+render(<Root store={store} />, document.getElementById("app"));
 
 module.hot.accept();

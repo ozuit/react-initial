@@ -8,6 +8,7 @@ function resolve(dir) {
 module.exports = {
   resolve: {
     alias: {
+      "@app": resolve(""),
       "@containers": resolve("containers"),
       "@components": resolve("components"),
       "@actions": resolve("actions"),

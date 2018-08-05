@@ -1,0 +1,17 @@
+.home-container form input {
+  height: 20px;
+  border-radius: 3px;
+  border: 1px solid #cfcfcf;
+  margin-right: 10px; }
+
+.home-container form button {
+  padding: 5px;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.1);
+  color: #5a5a5a; }
+
+.home-container h1 {
+  color: red; }
+
+
+/*# sourceMappingURL=styles.css.map*/

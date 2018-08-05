@@ -1,0 +1,17 @@
+@mixin input {
+    input{
+        height: 20px;
+        border-radius: 3px;
+        border: 1px solid #cfcfcf;
+        margin-right: 10px;
+    }
+}
+
+@mixin button {
+    button{
+        padding: 5px;
+        border-radius: 3px;
+        background: rgba(0,0,0,.1);
+        color: #5a5a5a;
+    }
+}

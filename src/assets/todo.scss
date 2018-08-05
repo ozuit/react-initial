@@ -1,0 +1,6 @@
+.home-container{
+    form{
+        @include input();
+        @include button();
+    }
+}

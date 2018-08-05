@@ -6,7 +6,7 @@ import { childRoutes } from "@app/router";
 class HomeComponent extends Component {
   render() {
     return (
-      <div>
+      <div className="home-container">
         <h1>React Initial - Todo Project Example</h1>
         {childRoutes.map((route, index) => (
           <Route

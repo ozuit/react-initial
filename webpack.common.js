@@ -12,7 +12,8 @@ module.exports = {
       "@containers": resolve("containers"),
       "@components": resolve("components"),
       "@actions": resolve("actions"),
-      "@reducers": resolve("reducers")
+      "@reducers": resolve("reducers"),
+      "@assets": resolve("assets")
     },
     extensions: ["*", ".js", ".jsx", ".json"]
   },

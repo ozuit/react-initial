@@ -6,6 +6,7 @@
 * Babel
 * Redux
 * React Router
+* SASS
 * Staging ES Next Features
 * Hot Module Replacement
 

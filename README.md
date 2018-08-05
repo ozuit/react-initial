@@ -4,6 +4,8 @@
 * React 16
 * Webpack 4
 * Babel
+* Redux
+* React Router
 * Staging ES Next Features
 * Hot Module Replacement
 
